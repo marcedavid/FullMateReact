@@ -1,0 +1,41 @@
+@import "./color";
+
+%navStyle{
+    color: #fff;
+    font-size: 24px;
+    background-color: #22577a;
+}
+
+%fooStyle{
+    color: #fff;
+    font-size: 18px;
+    background: rgb(128,237,153);
+    background: linear-gradient(0deg, rgba(128,237,153,1) 0%, rgba(34,87,122,1) 100%); 
+}
+
+%card-img-top{
+    height: 300px;
+}
+
+%tituloCard{
+    text-align: center;
+    color: #22577a;
+    margin: 0;
+}
+
+%textoCard{
+    text-align: center;
+    color: #22577a;
+    font-weight: 200;
+}
+%btnProdu{
+    display: flex;
+    justify-content: center;
+    background-color: #80ed99;
+    text-align: center;
+    border: none;
+}
+%btnProdu:hover{
+    background-color: #22577a;
+    color: #80ed99;
+}

@@ -1,0 +1,74 @@
+@import "../scss/vars/_color.scss";
+@import "../scss/vars/_fonts.scss";
+@import "../scss/vars/_extend.scss";
+@import "../scss/vars/_mixin.scss";
+@import "../scss/vars/_maps.scss";
+@import "./about.scss";
+@import "./productos.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
+
+body{
+    background-image: url("../assets/background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    nav{
+        @extend%navStyle;
+
+    }
+    .prodContain{
+        padding: 3rem;
+        .ciBody{
+            .tituloCard{
+                @extend%tituloCard;
+            }
+            .textoCard{
+                @extend%textoCard;
+            }
+        }
+    }
+    footer{
+        @extend%fooStyle;
+    }
+}
+a{
+    text-decoration: none;
+}
+
+
+@media (max-width:768px){
+    .navbar{
+        text-align: center;
+    }
+    .carousel{
+        img{
+            height: 350px;
+        }
+
+    }
+    .prodContain{
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .rounded-pill{
+        border-radius: 100%;
+        background-color: black;
+    }
+    .prounded{
+        border-bottom: 2px dashed #80ed99;
+    }
+}
+
+@media (min-width:1024px){
+    .borde{
+
+        border-radius: none;
+        color: black;
+        
+    }
+}
