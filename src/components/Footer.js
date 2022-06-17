@@ -1,39 +1,39 @@
-export const Footer = () =>{
-    return     <footer class="text-center text-white">
+export const Footer = () => {
+    return <footer className="text-center text-white">
  
-    <div class="container">
+    <div className="container">
 
-        <section class="mt-5">
+        <section className="mt-5">
 
-            <div class="row text-center d-flex justify-content-center pt-5">
+            <div className="row text-center d-flex justify-content-center pt-5">
 
-                <div class="col-md-2">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <a href="../index.html" class="text-white">Home</a>
+                <div className="col-md-2">
+                    <h6 className="text-uppercase font-weight-bold">
+                        <a href="../index.html" className="text-white">Home</a>
                     </h6>
                 </div>
 
-                <div class="col-md-2">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <a href="./about.html" class="text-white">Nosotros</a>
+                <div className="col-md-2">
+                    <h6 className="text-uppercase font-weight-bold">
+                        <a href="./about.html" className="text-white">Nosotros</a>
                     </h6>
                 </div>
 
-                <div class="col-md-2">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <a href="./productos.html" class="text-white">Productos</a>
+                <div className="col-md-2">
+                    <h6 className="text-uppercase font-weight-bold">
+                        <a href="./productos.html" className="text-white">Productos</a>
                     </h6>
                 </div>
 
-                <div class="col-md-2">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <a href="./como.html" class="text-white">Como Llegar</a>
+                <div className="col-md-2">
+                    <h6 className="text-uppercase font-weight-bold">
+                        <a href="./como.html" className="text-white">Como Llegar</a>
                     </h6>
                 </div>
 
-                <div class="col-md-2">
-                    <h6 class="text-uppercase font-weight-bold">
-                        <a href="./contacto.html" class="text-white">Contacto</a>
+                <div className="col-md-2">
+                    <h6 className="text-uppercase font-weight-bold">
+                        <a href="./contacto.html" className="text-white">Contacto</a>
                     </h6>
                 </div>
 
@@ -42,12 +42,12 @@ export const Footer = () =>{
         </section>
 
 
-        <hr class="my-5" />
+        <hr className="my-5" />
 
 
-        <section class="mb-5">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-8">
+        <section className="mb-5">
+            <div className="row d-flex justify-content-center">
+                <div className="col-lg-8">
                     <p>
                         Somos una empresa lider en el mercado,
                         orientada a ofrecer la mejor calidad y variedad
@@ -59,28 +59,28 @@ export const Footer = () =>{
         </section>
 
 
-        <section class="text-center mb-5">
-            <a href="https://www.facebook.com/marcelodavid95" target="_blank" class="text-white me-4">
-                <i class="fab fa-facebook-f"></i>
+        <section className="text-center mb-5">
+            <a href="https://www.facebook.com/marcelodavid95" target="_blank" className="text-white me-4">
+                <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="https://www.twitter.com/marcedavid10" class="text-white me-4" target="_blank">
-                <i class="fab fa-twitter"></i>
+            <a href="https://www.twitter.com/marcedavid10" className="text-white me-4" target="_blank">
+                <i className="fab fa-twitter"></i>
             </a>
-            <a href="https://www.instagram.com/marcedavid1" class="text-white me-4" target="_blank">
-                <i class="fab fa-instagram"></i>
+            <a href="https://www.instagram.com/marcedavid1" className="text-white me-4" target="_blank">
+                <i className="fab fa-instagram"></i>
             </a>
-            <a href="https://www.linkedin.com/in/marcedavid" class="text-white me-4">
-                <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/marcedavid" className="text-white me-4">
+                <i className="fab fa-linkedin"></i>
             </a>
-            <a href="https://www.github.com/marcedavid" class="text-white me-4" target="_blank">
-                <i class="fab fa-github"></i>
+            <a href="https://www.github.com/marcedavid" className="text-white me-4" target="_blank">
+                <i className="fab fa-github"></i>
             </a>
         </section>
     </div>
 
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    <div className="text-center p-3">
         © 2022 Copyright:
-        <a class="text-white" href="#">Marcelo David</a>
+        <a className="text-white" href="#">Marcelo David</a>
     </div>
 </footer>
 }
